@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+    },
+    "target": "es6", 
+    "lib": ["es6", "dom"]
   },
   "exclude": ["node_modules", "dist"]
 }
