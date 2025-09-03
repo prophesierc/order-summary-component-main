@@ -1,1 +1,24 @@
 @import "tailwindcss";
+@theme {
+  /* Colors */
+
+    /* Primary */
+      --primary-clr-Blue-100: hsl(225, 100%, 94%);
+      --primary-clr-Blue-700: hsl(245, 75%, 52%);
+
+    /* Neutral */
+      --neutral-clr-Blue-50:  hsl(225, 100%, 98%);
+      --neutral-clr-Grey: hsl(224, 23%, 55%);
+      --clr-Blue-950: hsl(223, 47%, 23%);
+
+  /* Typography */
+
+    /* Body Copy */
+      --fs-paragraph: 16px;
+
+  /* Font */
+      --font-family-RH: "Red Hat Display", "sans-serif";
+      --fw-500: 500;
+      --fw-700: 700;
+      --fw-900: 900;
+}
