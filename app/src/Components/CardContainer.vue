@@ -5,7 +5,7 @@
       md:bg-[url('/src/assets/pattern-background-desktop.svg')]">
 
     <div id="card_container"
-      class="h-[75%] min-w-[25%] max-w-100 text-center ">
+      class="h-full min-w-[25%] max-w-100 text-center flex flex-col justify-center items-center">
       <img src="/src/assets/illustration-hero.svg"
         class="rounded-t-4xl w-full h-auto"
       />
@@ -13,7 +13,7 @@
           class="h-100 w-full flex flex-col items-center rounded-b-4xl bg-white px-8 font-family-RH">
 
           <h1
-            class="font-bold text-3xl py-6 tracking-tighter">
+            class="font-extrabold text-3xl py-6 tracking-tighter">
               Order Summary
           </h1>
 
@@ -22,13 +22,14 @@
             device anywhere you like!
           </p>
 
-          <span class="flex flex-row">
+          <span class="flex items-center my-4 w-full h-20 px-4
+            bg-[var(--clr-plan-background)] rounded-2xl">
             <img src="/src/assets/icon-music.svg">
-            <div class="flex flex-col">
-              <h2>Annual Plan</h2>
-              <h3>$59.99/year</h3>
+            <div class="flex flex-col items-start pl-6">
+              <h2 class="font-extrabold">Annual Plan</h2>
+              <h3 class="text-(--neutral-clr-Grey)">$59.99/year</h3>
             </div>
-            <button>Change</button>
+            <button class="ml-auto underline text-[var(--primary-clr-Blue-700)] font-extrabold">Change</button>
           </span>
 
           <div>Proceed to Payment</div>

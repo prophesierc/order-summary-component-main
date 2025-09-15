@@ -7,9 +7,10 @@
       --primary-clr-Blue-700: hsl(245, 75%, 52%);
 
     /* Neutral */
-      --neutral-clr-Blue-50:  hsl(225, 100%, 98%);
+      --neutral-clr-Blue-50: hsl(225, 100%, 98%);
       --neutral-clr-Grey: hsl(224, 23%, 55%);
       --clr-Blue-950: hsl(223, 47%, 23%);
+      --clr-plan-background: hsl(230, 75%, 98%);
 
   /* Typography */
 
