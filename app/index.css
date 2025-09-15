@@ -8,6 +8,7 @@
 
     /* Neutral */
       --neutral-clr-Blue-50: hsl(225, 100%, 98%);
+      --clr-focus: hsl(246, 57%, 66%);
       --neutral-clr-Grey: hsl(224, 23%, 55%);
       --clr-Blue-950: hsl(223, 47%, 23%);
       --clr-plan-background: hsl(230, 75%, 98%);

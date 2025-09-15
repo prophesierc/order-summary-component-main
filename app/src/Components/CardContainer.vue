@@ -31,15 +31,17 @@
               <h3 class="text-(--neutral-clr-Grey)"
                 >$59.99/year</h3>
             </div>
-            <button class="ml-auto underline text-[var(--primary-clr-Blue-700)] font-extrabold cursor-pointer"
+            <button class="ml-auto underline text-[var(--primary-clr-Blue-700)]
+              font-extrabold cursor-pointer focus:text-[var(--clr-focus)] hover:not-focus:text-[var(--clr-focus)]"
               >Change</button>
           </span>
 
-          <div class="flex flex-row items-center justify-center bg-[var(--primary-clr-Blue-700)] text-white
-            w-full h-12 rounded-xl font-extrabold my-2 mb-6 cursor-pointer"
-            >Proceed to Payment</div>
-          <div class="text-(--neutral-clr-Grey) font-extrabold cursor-pointer"
-            >Cancel Order</div>
+          <button class="flex flex-row items-center justify-center bg-[var(--primary-clr-Blue-700)] text-white
+            w-full h-12 rounded-xl font-extrabold my-2 mb-6 cursor-pointer
+            focus:bg-[var(--clr-focus)] hover:not-focus:bg-[var(--clr-focus)]"
+            >Proceed to Payment</button>
+          <button class="text-(--neutral-clr-Grey) font-extrabold cursor-pointer focus:text-black hover:not-focus:text-black"
+            >Cancel Order</button>
         </div>
 
     </div>
